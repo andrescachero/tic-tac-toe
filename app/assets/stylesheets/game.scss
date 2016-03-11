@@ -1,0 +1,21 @@
+$board-line: 1px solid grey;
+
+#board {
+    width: 315px;
+
+    div {
+        height: 100px;
+        width: 100px;
+        float:left;
+
+    }
+
+    .cell_2_1, .cell_2_2, .cell_2_3 {
+        border-bottom: $board-line;
+        border-top: $board-line;
+    }
+    .cell_1_2, .cell_2_2, .cell_3_2 {
+        border-right: $board-line;
+        border-left: $board-line;
+    }
+}
