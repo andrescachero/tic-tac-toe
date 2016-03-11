@@ -70,7 +70,7 @@ Game.prototype.setupBoard = function () {
     $(this.boardContainer).html(boardHTML);
     $(this.boardContainer + ' div').on('click', function (event) {
         var cell = $(event.currentTarget);
-        if(cell.empty()) {
+        if(cell.is(':empty')) {
             cell.append('<i class="' + game.currentPlayerSymbol() + '"></i>');
             game.trackMove(cell.data('id'));
 
