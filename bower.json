@@ -1,0 +1,24 @@
+{
+  "name": "tic-tac-toe",
+  "homepage": "https://github.com/andrescachero/tic-tac-toe",
+  "authors": [
+    "Andres Cachero <andres.cachero@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "fontawesome#^4.5.0"
+  }
+}

@@ -1,24 +1,19 @@
-## README
+# TIC TAC TOE README
+Trying to learn stuff. Read at your own risk.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Requirements:
 
-Things you may want to cover:
+- Ruby >= 2.2.2
+- Bundler
+- node + bower
 
-* Ruby version
+## Configuration
+1. Clone repo
+2. bundle install
+3. bower install
+4. bin/rails s
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### TODO
+1. Implement ActionCable
+2. Write test!!!
+3. Replace font icons with HTML5 canvas (?)

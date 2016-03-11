@@ -1,5 +1,7 @@
 $board-line: 1px solid grey;
-
+$icon-size: 6rem;
+$color-player-A: blue;
+$color-player-B: green;
 #board {
     width: 315px;
 
@@ -7,15 +9,28 @@ $board-line: 1px solid grey;
         height: 100px;
         width: 100px;
         float:left;
+        text-align: center;
+    }
+
+    i {
+        font-size: $icon-size;
+
+        &.fa-times {
+            color: $color-player-A;
+        }
+        &.fa-circle-o {
+            color: $color-player-B;
+        }
 
     }
 
-    .cell_2_1, .cell_2_2, .cell_2_3 {
+    #cell-4, #cell-5, #cell-6 {
         border-bottom: $board-line;
         border-top: $board-line;
     }
-    .cell_1_2, .cell_2_2, .cell_3_2 {
+    #cell-2, #cell-5, #cell-8 {
         border-right: $board-line;
         border-left: $board-line;
     }
+
 }
